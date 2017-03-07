@@ -26,18 +26,10 @@ define("PATH_PLUGINS",MINIPHP_PATH.H."plugins".H);//---------------------------�
 define("APP_CLASS",MINIPHP_PATH.H."..".H."App".H."Class".H);
 define("SESSION",true);
 define("PAGE_SIZE",10); //分页每页数量
-//数据库配置信息
-/*define("DB_USER","root");
-define("DB_PASS","123456");
-define("DB_NAME","itfree");
-define("DB_HOST","localhost");
-define("DB_PORT",3306);*/
-//define("DB_DSN","mysql:host=127.0.0.1;port=3306;dbname=itfree");
-
 
 //COOKIE配置信息
 define("COOKIE_ID","MiniPHP_COOKIE_ID");
-define("COOKIE_DOMAIN","sms.com");
+define("COOKIE_DOMAIN","miniphp.org");
 define("COOKIE_TIME",3600);
 
 //验证等级
